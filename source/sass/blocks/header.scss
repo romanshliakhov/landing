@@ -51,6 +51,9 @@
         font-size: 15px;
         line-height: 21px;
         font-weight: 400;
+        background: radial-gradient(66.29% 713.36% at 50% 50.26%, rgba(255, 255, 255, 0.68) 0%, rgba(255, 255, 255, 0) 100%), #FFFFFF;
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
 
         span {
             font-weight: 900;
@@ -61,16 +64,19 @@
         margin-left: 20px;
         width: 140px;
         height: 27px;
+        font-size: 14px;
     }
 
     &__wrapp {
         position: relative;
         height: 192px;
+        padding: 0 30px;
         background: radial-gradient(65.07% 3009.63% at 52.29% 30.99%, #FA00FF 0%, rgba(250, 0, 255, 0) 100%), #4A01E6;
         box-shadow: 0px 20px 70px rgba(74, 1, 230, 0.52);
     }
 
     &__nav {
+        position: relative;
         max-width: 885px;
         margin: 0 auto;
         display: flex;
@@ -91,5 +97,36 @@
         }
     }
 
+    &__logo {
+        position: absolute;
+        top: 30px;
+        left: 50%;
+        transform: translateX(-50%);
+        width: Min(32vw, 308px);
+    }
+}
 
+@media (max-width: 1024px) {
+    .header__contract-cancel {
+        top: 17px;
+        right: 25px;
+    }
+
+    .header__contract-info {
+        min-height: 123px;
+        flex-direction: column;
+    }
+
+    .header__contract-text {
+        text-align: center;
+
+        span {
+            display: block;
+        }
+    }
+
+    .header__contract-btn {
+        margin-left: 0;
+        margin-top: 10px;
+    }
 }

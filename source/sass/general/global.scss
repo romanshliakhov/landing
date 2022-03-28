@@ -102,6 +102,12 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
+// .body-index {
+//   max-width: 1440px;
+//   width: 100%;
+//   margin: 0 auto;
+// }
+
 .container {
   max-width: 1440px;
   padding: 0 10px;
@@ -113,9 +119,8 @@ input[type="search"]::-webkit-search-results-decoration {
   display: flex;
   align-items:center;
   justify-content: center;
-  font-size: 14px;
-  line-height: 137%;
   font-weight: 900;
+  line-height: 137%;
   letter-spacing: 0.04em;
   background: linear-gradient(90deg, #FFA800 0%, #FF4D00 100%), radial-gradient(13.07% 350.17% at 50% 100%, rgba(255, 234, 44, 0.8) 0%, rgba(255, 234, 44, 0) 100%), radial-gradient(35.8% 959.17% at 100% 100%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(42.33% 1134.26% at 0% 100%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%), #F0D800;
   border-radius: 2.78082px;
