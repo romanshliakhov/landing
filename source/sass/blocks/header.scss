@@ -1,0 +1,95 @@
+.header {
+    &__contract {
+        background: radial-gradient(65.07% 5375.35% at 52.29% 55.34%, #FA00FF 0%, rgba(250, 0, 255, 0) 100%), #4A01E6;
+        box-shadow: 0px 20px 70px rgba(74, 1, 230, 0.52);
+        position: relative;
+    }
+
+    &__contract-cancel {
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        right: 65px;
+        width: 15px;
+        height: 15px;
+        opacity: 1;
+        cursor: pointer;
+
+        &::before, 
+        &::after {
+            position: absolute;
+            content: ' ';
+            height: 15px;
+            width: 15px;
+            width: 2px;
+            background-color: #fff;
+        }
+
+        &::before {
+            transform: rotate(45deg);
+        }
+
+        &::after {
+            transform: rotate(-45deg);
+        }
+
+        &:hover {
+            opacity: 0.3;
+        }
+    }
+
+    &__contract-info {
+        max-width: 820px;
+        margin: 0 auto;
+        min-height: 72px;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    &__contract-text {
+        font-size: 15px;
+        line-height: 21px;
+        font-weight: 400;
+
+        span {
+            font-weight: 900;
+        }
+    }
+
+    &__contract-btn {
+        margin-left: 20px;
+        width: 140px;
+        height: 27px;
+    }
+
+    &__wrapp {
+        position: relative;
+        height: 192px;
+        background: radial-gradient(65.07% 3009.63% at 52.29% 30.99%, #FA00FF 0%, rgba(250, 0, 255, 0) 100%), #4A01E6;
+        box-shadow: 0px 20px 70px rgba(74, 1, 230, 0.52);
+    }
+
+    &__nav {
+        max-width: 885px;
+        margin: 0 auto;
+        display: flex;
+        align-items:center;
+        justify-content: space-between;
+    }
+
+    &__nav-list {
+        display: flex;
+        margin-top: 48px;
+        font-size: 16px;
+        line-height: 22px;
+        font-weight: 700;
+        text-transform: uppercase;
+
+        li + li {
+            margin-left: 40px;
+        }
+    }
+
+
+}

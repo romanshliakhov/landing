@@ -6,11 +6,11 @@ body {
 body {
   margin: 0;
   padding: 0;
-  font-family: "OpenSans", sans-serif;
-  font-size: 18px;
-  line-height: 28px;
+  font-family: "SofiaPro", sans-serif;
+  font-size: 20px;
+  line-height: 27px;
   font-weight: 600;
-  color: #545452;
+  color: #fff;
 }
 
 .body__scroll {
@@ -103,9 +103,22 @@ input[type="search"]::-webkit-search-results-decoration {
 }
 
 .container {
-  max-width: 1165px;
-  padding: 0 15px;
+  max-width: 1440px;
+  padding: 0 10px;
   margin: 0 auto;
   position: relative;
+}
+
+.btn {  
+  display: flex;
+  align-items:center;
+  justify-content: center;
+  font-size: 14px;
+  line-height: 137%;
+  font-weight: 900;
+  letter-spacing: 0.04em;
+  background: linear-gradient(90deg, #FFA800 0%, #FF4D00 100%), radial-gradient(13.07% 350.17% at 50% 100%, rgba(255, 234, 44, 0.8) 0%, rgba(255, 234, 44, 0) 100%), radial-gradient(35.8% 959.17% at 100% 100%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(42.33% 1134.26% at 0% 100%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%), #F0D800;
+  border-radius: 2.78082px;
+  text-transform: uppercase;
 }
 

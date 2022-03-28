@@ -1,8 +1,53 @@
 @font-face {
-  font-family: "Glober";
-  src: url("../fonts/GloberSemiBoldFree.woff2") format("woff2"),
-       url("../fonts/GloberSemiBoldFree.woff") format("woff");
+  font-family: "SofiaPro";
+  src: url("../fonts/SofiaProLight.woff2") format("woff2"),
+       url("../fonts/SofiaProLight.woff") format("woff");
+  font-display: swap;
+  font-weight: 300;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../fonts/SofiaProRegular.woff2") format("woff2"),
+       url("../fonts/SofiaProRegular.woff") format("woff");
+  font-display: swap;
+  font-weight: 400;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../fonts/SofiaProMedium.woff2") format("woff2"),
+       url("../fonts/SofiaProMedium.woff") format("woff");
+  font-display: swap;
+  font-weight: 500;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../fonts/SofiaProSemiBold.woff2") format("woff2"),
+       url("../fonts/SofiaProSemiBold.woff") format("woff");
   font-display: swap;
   font-weight: 600;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../fonts/SofiaProBold.woff2") format("woff2"),
+       url("../fonts/SofiaProBold.woff") format("woff");
+  font-display: swap;
+  font-weight: 700;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "SofiaPro";
+  src: url("../fonts/SofiaProBlack.woff2") format("woff2"),
+       url("../fonts/SofiaProBlack.woff") format("woff");
+  font-display: swap;
+  font-weight: 900;
   font-style: normal;
 }
