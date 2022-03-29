@@ -20,6 +20,20 @@
     height: 46px;
     background-color: #fff;
     border-radius: 44px;
+    position: relative;
+
+    &::before {
+      content: '';
+      position: absolute;
+      background-image: url('../img/lang.svg');
+      width: 54px;
+      height: 29px;
+      left: -80px;
+      top: 50%;
+      transform: translateY(-50%);
+      background-size: cover;
+      background-repeat: no-repeat;
+  }
 
   &:hover {
     // transform: scale(1.1);
