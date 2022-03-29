@@ -104,6 +104,15 @@
         left: 50%;
         transform: translateX(-50%);
         width: Min(32vw, 308px);
+        // max-width: 308px;
+    }
+
+    &__select {
+        position: absolute;
+        top: 29px;
+        right: 55px;
+        
+        
     }
 }
 

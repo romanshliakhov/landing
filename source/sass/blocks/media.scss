@@ -1,6 +1,33 @@
-// @media (min-width: 1000px) and (max-width: 1600px) {
+@media (max-width: 1024px) {
+    .burger-menu {
+        display: block;
+    }
 
-// }
+    .header__wrapp {
+        height: auto;
+    }
+
+    .header__nav {
+        max-width: 100%;
+        padding: 10px 0;
+    }
+
+    .header__nav-list {
+        display: none;
+    }
+
+    .header__logo {
+        position: relative;
+        left: inherit;
+        top: inherit;
+        transform: inherit;
+    }
+
+    .main {
+        margin-top: 0;
+        border-top: 5px solid #fff;
+    }
+}
 
 
 

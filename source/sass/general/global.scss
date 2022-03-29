@@ -102,11 +102,9 @@ input[type="search"]::-webkit-search-results-decoration {
   display: none;
 }
 
-// .body-index {
-//   max-width: 1440px;
-//   width: 100%;
-//   margin: 0 auto;
-// }
+.body-scroll {
+  overflow-y: hidden;
+}
 
 .container {
   max-width: 1440px;
