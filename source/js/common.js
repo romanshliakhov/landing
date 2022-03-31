@@ -1,6 +1,6 @@
 // burger menu
-let menuBtn = document.querySelector('.burger-menu');
-let menu = document.querySelector('.mobile-menu');
+let menuBtn = document.querySelector('.burger__menu');
+let menu = document.querySelector('.mobile__menu');
 let disableScroll = document.querySelector('body');
 
 menuBtn.addEventListener('click', function(){
