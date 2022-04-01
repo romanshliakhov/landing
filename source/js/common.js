@@ -4,16 +4,17 @@ const closeMobileMenuBtn = document.querySelector(".burger__menu-cancel")
 const mobileMenu = document.querySelector(".mobile__menu");
 const disableScrollOnSite = document.querySelector('body');
 
-document.addEventListener("click", function(event) {
-	if (event.target.matches(".burger__menu-cancel") || !event.target.closest(".burger__menu")) {
-		openMobileMenuBtn.classList.remove("active");
-		mobileMenu.classList.remove("active");
-	} else {
-		mobileMenu.classList.add("active");
-		openMobileMenuBtn.classList.add("active");
-		disableScrollOnSite.classList.add("body-scroll");
-	}
-})
+openMobileMenuBtn.addEventListener("click", () => {
+	mobileMenu.classList.add("active");
+	openMobileMenuBtn.classList.add("active");
+	disableScrollOnSite.classList.add("body-scroll");
+});
+
+closeMobileMenuBtn.addEventListener("click", () => {
+	mobileMenu.classList.remove("active");
+	openMobileMenuBtn.classList.remove("active");
+	disableScrollOnSite.classList.remove("body-scroll");
+});
 
 // select lang
 const select = function () {
