@@ -1,16 +1,25 @@
 // burger menu
-let menuBtn = document.querySelector('.burger__menu');
-let menu = document.querySelector('.mobile__menu');
-let disableScroll = document.querySelector('body');
+const openMobileMenuBtn = document.querySelector(".burger__menu");
+const closeMobileMenuBtn = document.querySelector("burger__menu-cancel")
+const mobileMenu = document.querySelector(".mobile__menu");
+const disableScrollOnSite = document.querySelector('body');
 
-menuBtn.addEventListener('click', function(){
-	menuBtn.classList.toggle('active');
-	menu.classList.toggle('active');
-  disableScroll.classList.toggle('body-scroll');
+openMobileMenuBtn.addEventListener("click", () => {
+	if (mobileMenu.classList.contains("active")) {
+		
+	} else {
+		mobileMenu.classList.add("active");
+		openMobileMenuBtn.classList.add("active");
+		disableScrollOnSite.classList.add("body-scroll");
+	}
 });
 
+
+
+
+
 // select lang
-let select = function () {
+const select = function () {
 	let selectHeader = document.querySelectorAll('.select__header');
 	let selectItem = document.querySelectorAll('.select__item');
   
