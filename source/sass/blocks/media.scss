@@ -1,3 +1,17 @@
+@media (min-width: 1025px) and (max-width: 1299px) {
+    .header__nav {
+        max-width: 720px;
+    }
+
+    .header__nav-list {
+        min-width: 240px;
+    }
+
+    .header__logo {
+        width: 225px;
+    }
+}
+
 @media (max-width: 1024px) {
     .burger__menu {
         display: block;

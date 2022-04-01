@@ -124,5 +124,11 @@ input[type="search"]::-webkit-search-results-decoration {
   border-radius: 2.78082px;
   text-transform: uppercase;
   cursor: pointer;
+  transition: all 0.7s ease-in-out;
+  
+
+  &:hover {
+    transform: translateY(-0.25em);
+  }
 }
 
