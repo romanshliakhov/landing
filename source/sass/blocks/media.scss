@@ -42,6 +42,13 @@
         border-top: 5px solid #fff;
         padding: 46px 37px;
     }
+
+    .main__eos-left, 
+    .main__eos-right,
+    .main__usd,
+    .main__euro {
+        display: none;
+    }
 }
 
 @media (max-width: 765px) {

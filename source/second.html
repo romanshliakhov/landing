@@ -58,7 +58,7 @@
         <div class="header__select select">
           <div class="select__header">
             <span class="select__current">
-              <svg  width='46' height='46'>
+              <svg width='46' height='46'>
                 <use href='img/sprite/sprite.svg#usa'></use>
               </svg>
             </span>
@@ -111,6 +111,33 @@
               <a class="header__nav-link" href="#">WHITEPAPER</a>
             </li>
           </ul>
+          <div class="header__select select">
+            <div class="select__header">
+              <span class="select__current">
+                <svg width='46' height='46'>
+                  <use href='img/sprite/sprite.svg#usa'></use>
+                </svg>
+              </span>
+            </div>
+  
+            <div class="select__body">
+              <div class="select__item">
+                <svg  width='46' height='46'>
+                  <use href='img/sprite/sprite.svg#usa'></use>
+                </svg>
+              </div>
+              <div class="select__item">
+                <svg  width='46' height='46'>
+                  <use href='img/sprite/sprite.svg#china'></use>
+                </svg>
+              </div>
+              <div class="select__item">
+                <svg  width='46' height='46'>
+                  <use href='img/sprite/sprite.svg#russia'></use>
+                </svg>
+              </div>
+            </div>
+          </div> 
           <div class="mobile__menu-socials">
             <div class="mobile__socials-title">JOIN THE COMMUNITY</div>
             <ul class="main__socials">
@@ -164,25 +191,43 @@
     <div class="main__wrapper">
       <h1 class="main__title">A REAL-TIME STRATEGY GAME BASED ON BLOCKCHAIN TECHNOLOGY</h1>
       <h2 class="main__subtitle">CREATED AND IMPLEMENTED ON BSC NETWORK</h2>
-      <div class="main__btns">
-        <a class="main__btn btn" href="#">
+      <div class="main__btns main__btns--second">
+        <a class="main__play-btn btn" href="#">Play Now</a>
+        <a class="main__play-btn btn" href="#">Feedback</a>
+        <div class="main__eos-left">
           <picture>
-            <source type='image/webp' srcset='img/biswap.webp'>
-            <img class='main__btn--image' width='37' height='37' src='img/biswap.png' alt='biswap logo'>
+            <source type='image/webp' srcset='img/eosleft.webp'>
+            <img class="main__oes-left--image" src="img/eosleft.png" alt="eos">
           </picture>
-          <span>buy on biswap</span>
-        </a>
-        <a class="main__btn btn" href="#">
+        </div>
+        <div class="main__eos-right">
           <picture>
-            <source type='image/webp' srcset='img/pancakes.webp'>
-            <img class='main__btn--image' width='37' height='37' src='img/pancakes.png' alt='pancakeswap logo'>
+            <source type='image/webp' srcset='img/eosright.webp'>
+            <img class="main__oes-right--image" src="img/eosright.png" alt="eos">
           </picture>
-          <span>buy on pancakeswap</span>
-        </a>
+        </div>
+        <div class="main__usd">
+          <picture>
+            <source type='image/webp' srcset='img/usd.webp'>
+            <img class="main__usd-image" src="img/usd.png" alt="usd">
+          </picture>
+        </div>
+        <div class="main__euro">
+          <picture>
+            <source type='image/webp' srcset='img/euro.webp'>
+            <img class="main__euro-image" src="img/euro.png" alt="logo">
+          </picture>
+        </div>
       </div>
       <div class="main__contract">Official CryptoBattles Token Contract (BSC):</div>
       <div class="main__contract-token">0xd9150910de9A4df5D734f4d9B5ebe82BCCe9095a</div>
-      <a class="main__play-btn btn" href="#">Play Now</a>
+      <a class="main__cbt btn" href="#">
+        <picture>
+          <source type='image/webp' srcset='img/cbt.webp'>
+          <img class='main__btn--image' width='37' height='37' src='img/cbt.png' alt='cbt logo'>
+        </picture>
+        <span>buy CBT</span>
+      </a>
       <div class="main__text">Being a great strategist takes talent, and we think you got it! Join us in this tactical Play and Earn game!</div>
       <a class="main__mobile-btn" href="#">
         <picture>
@@ -235,7 +280,6 @@
         </li>
       </ul>
     </div>
-
   </main>
   
   <script src="js/common.min.js"></script>

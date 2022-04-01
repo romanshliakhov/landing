@@ -121,6 +121,29 @@
       }
     }
 
+    .header__select {
+      display: block;
+      position: relative;
+      right: 0;
+      padding-left: 42px;
+
+      .select__current::before {
+        bottom: -70px;
+        left: 0;
+        top: inherit;
+      }
+
+      .select__body {
+        transform: rotate(-90deg);
+        left: 90px;
+        top: -75px;
+
+        svg {
+          transform: rotate(90deg);
+        }
+      }
+    }
+
     .mobile__menu-socials {
       position: absolute;
       bottom: 205px;
