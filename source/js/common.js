@@ -54,6 +54,17 @@ const select = function () {
 };
   
 select();
+
+// close header top
+const closeHeaderTopClose = document.querySelector(".header__contract-cancel");
+const closeHeaderTopContent = document.querySelector(".header__contract");
+
+closeHeaderTopClose.addEventListener("click", () => {
+	console.log('click');
+	closeHeaderTopContent.classList.add("hide");
+
+});
+
   
 
 
