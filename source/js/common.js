@@ -16,6 +16,17 @@ closeMobileMenuBtn.addEventListener("click", () => {
 	disableScrollOnSite.classList.remove("body-scroll");
 });
 
+// document.addEventListener("click", function(event) {
+// 	if (event.target.matches(".burger__menu-cancel") || !event.target.closest(".burger__menu")) {
+// 		openMobileMenuBtn.classList.remove("active");
+// 		mobileMenu.classList.remove("active");
+// 	} else {
+// 		mobileMenu.classList.add("active");
+// 		openMobileMenuBtn.classList.add("active");
+// 		disableScrollOnSite.classList.add("body-scroll");
+// 	}
+// })
+
 // select lang
 const select = function () {
 	let selectHeader = document.querySelectorAll('.select__header');

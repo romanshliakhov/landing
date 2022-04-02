@@ -1,18 +1,7 @@
-.select {
-	// position: relative;
-	// width: 50px;
-    // margin-top: 4px;
-}
-
 .select.is-active .select__body {
 	  display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.select.is-active .select__current::before {
-  transform: translateY(-50%) rotate(0);
-  transition: all 0.5s;
 }
 
 .select__header {
@@ -21,29 +10,16 @@
 }
 
 .select__current {
-	width: 46px;
+	  width: 46px;
     height: 46px;
     background-color: #fff;
     border-radius: 44px;
     position: relative;
-    transition: hover 0.4s ease-in-out;
-
-    &::before {
-      content: '';
-      position: absolute;
-      background-image: url('../img/lang.svg');
-      width: 54px;
-      height: 29px;
-      left: -80px;
-      top: 50%;
-      transform: translateY(-50%) rotate(180deg);
-      background-size: cover;
-      background-repeat: no-repeat;
+  
+    &:hover {
+      transition: 0.3s ease-in-out;
   }
 
-  &:hover {
-    transition: 0.3s ease-in-out;
-  }
 }
 
 .select__body {

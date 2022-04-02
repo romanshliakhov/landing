@@ -124,14 +124,27 @@
     .header__select {
       display: block;
       position: relative;
+      top: 40px;
       right: 0;
       padding-left: 42px;
 
-      .select__current::before {
-        bottom: -70px;
-        left: 0;
-        top: inherit;
-      }
+        &::before {
+          content: '';
+          position: absolute;
+          background-image: url('../img/lang.svg');
+          background-position: center;
+          background-size: 100%;
+          background-repeat: no-repeat;
+          bottom: -60px;
+          left: 42px;
+          width: 54px;
+          height: 29px;
+        }
+  
+        // .select.is-active .select__current::before {
+        //   transform: translateY(-50%) rotate(0);
+        //   transition: all 0.5s;
+        // }
 
       .select__body {
         transform: rotate(-90deg);

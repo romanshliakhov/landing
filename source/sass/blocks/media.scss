@@ -17,16 +17,13 @@
         display: block;
     }
 
-    .header__wrapp {
-        height: auto;
-    }
-
     .header__nav {
         max-width: 100%;
         padding: 10px 30px;
     }
 
-    .header__nav-list {
+    .header__nav-list,
+    .header__icon {
         display: none;
     }
 
@@ -39,7 +36,6 @@
 
     .main {
         margin-top: 0;
-        border-top: 5px solid #fff;
         padding: 46px 37px;
     }
 
