@@ -116,13 +116,14 @@
 
         &::after {
             content: '';
+            position: absolute;
             background-image: url('../img/headerbg.png');
             background-size: 100% 100%;
             background-repeat: no-repeat;
+            background-position: bottom;
             position: absolute;
-            // top: -84px;
-            bottom: Max(-6vw, -91vw);
-            height: Min(15.3vw, 261px);
+            height: 265px;
+            top: -72px;
             width: 100%;
             z-index: 10;
         }
@@ -131,6 +132,7 @@
     &__wrapp {
         position: relative;
         height: 100%;
+        background: #6d02ea;
     }
 
     &__icon {
@@ -216,5 +218,9 @@
 
     .header__select {
         display: none;
+    }
+
+    .header__wrapp {
+        background: radial-gradient(65.07% 3009.63% at 52.29% 30.99%, #FA00FF 0%, rgba(250, 0, 255, 0) 100%), #4A01E6;
     }
 }
