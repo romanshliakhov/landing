@@ -45,6 +45,10 @@
     .main__euro {
         display: none;
     }
+
+    .header__wrapper::after {
+        display: none;
+    }
 }
 
 @media (max-width: 765px) {

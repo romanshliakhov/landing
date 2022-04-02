@@ -117,16 +117,16 @@
         &::after {
             content: '';
             background-image: url('../img/headerbg.png');
-            background-size: 100%;
+            background-size: 100% 100%;
             background-repeat: no-repeat;
             position: absolute;
-            top: -84px;
-            height: 290px;
+            // top: -84px;
+            bottom: Max(-6vw, -91vw);
+            height: Min(15.3vw, 261px);
             width: 100%;
             z-index: 10;
         }
     }
-
 
     &__wrapp {
         position: relative;
