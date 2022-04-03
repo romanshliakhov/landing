@@ -6,7 +6,6 @@
     background-position: top center;
     background-repeat: no-repeat;
     box-shadow: 0px 20px 70px rgba(74, 1, 230, 0.52);
-    // overflow-x: hidden;
 
     &__wrapper {
         padding: 90px 30px 65px;
@@ -44,7 +43,7 @@
         width: 100%;
         display: flex;
         align-items: center;
-        justify-content: space-between;
+        justify-content: center;
         position: relative;
 
         &--second {
@@ -61,13 +60,18 @@
 
                 &:last-of-type{
                     background: radial-gradient(65.07% 3009.63% at 52.29% 30.99%, #FA00FF 0%, rgba(250, 0, 255, 0) 100%), linear-gradient(0deg, #4A01E6, #4A01E6), radial-gradient(13.07% 350.17% at 50% 100%, rgba(60, 255, 44, 0.8) 0%, rgba(66, 255, 0, 0) 100%), radial-gradient(35.8% 959.17% at 100% 100%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%), radial-gradient(42.33% 1134.26% at 0% 100%, rgba(0, 0, 0, 0.3) 0%, rgba(0, 0, 0, 0) 100%), #1CC500;
+
+                    &:hover {
+                        box-shadow: 0 0.6em 0.6em -0.3em #FA00FF;
+                    }
                 }
             }
         }
     }
 
     &__btn {
-        flex-basis: 47%;
+        max-width: 380px;
+        width: 100%;
         min-height: 72px;
         letter-spacing: 0.04em;
 
@@ -104,9 +108,14 @@
     &__play-btn {
         margin-top: 15px;
         height: 68px;
-        width: 254px;
+        max-width: 254px;
+        width: 100%;
         background: radial-gradient(13.07% 350.17% at 50% 100%, rgba(60, 255, 44, 0.8) 0%, rgba(66, 255, 0, 0) 100%), #1CC500;
         border-radius: 7px;
+
+        &:hover {
+            box-shadow: 0 0.6em 0.6em -0.3em #1CC500;
+          }
     }
 
     &__text {
@@ -122,7 +131,8 @@
 
     &__mobile-btn {
         margin-top: 16px;
-        width: 352px;
+        max-width: 352px;
+        width: 100%;
         height: 68px;
         border: 2px solid #FBEF78;
         border-radius: 7px;
