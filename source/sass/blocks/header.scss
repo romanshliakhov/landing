@@ -165,6 +165,10 @@
 }
 
 @media (max-width: 1024px) {
+    .header__contract {
+        height: 123px;
+    }
+
     .header__contract-cancel {
         top: 17px;
         right: 25px;

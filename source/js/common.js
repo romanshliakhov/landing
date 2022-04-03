@@ -58,11 +58,12 @@ select();
 // close header top
 const closeHeaderTopClose = document.querySelector(".header__contract-cancel");
 const closeHeaderTopContent = document.querySelector(".header__contract");
+const closeHeaderMainResize = document.querySelector(".main");
 
 closeHeaderTopClose.addEventListener("click", () => {
 	console.log('click');
 	closeHeaderTopContent.classList.add("hide");
-
+	closeHeaderMainResize.classList.add('hide');
 });
 
   

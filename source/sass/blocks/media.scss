@@ -44,6 +44,15 @@
     .header__wrapper::after {
         display: none;
     }
+
+    .main {
+        min-height: calc(100% - 231px);
+        background-size: cover;
+
+        &.hide {
+            min-height: calc(100% - 108px);
+        }
+    }
 }
 
 @media (max-width: 765px) {
