@@ -76,6 +76,11 @@
         width: 140px;
         height: 27px;
         font-size: 14px;
+
+        span {
+            padding: 0;
+            text-transform: none;
+        }
     }
 
     &__wrapper {
