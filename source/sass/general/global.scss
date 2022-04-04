@@ -125,17 +125,18 @@ input[type="search"]::-webkit-search-results-decoration {
   border-radius: 7px;
   text-transform: uppercase;
   cursor: pointer;
-  // transition: transform 0.7s ease-in-out;
   outline-offset: 4px;
   transition: -webkit-filter .7s;
   transition: filter .7s;
   transition: filter .7s,-webkit-filter .7s, transform 0.7s ease-in-out;
+  position: relative;
+  z-index: 5;
 
   &:hover {
     transform: translateY(-0.20em);
     -webkit-filter: brightness(110%);
     filter: brightness(110%);
-    box-shadow: 0 0.6em 0.6em -0.3em #FFA800;
+    // box-shadow: 0 0.6em 0.6em -0.3em #FFA800;
   }
 }
 

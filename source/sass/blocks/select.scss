@@ -7,6 +7,10 @@
 .select__header {
 	cursor: pointer;
 	display: flex;
+  padding: 10px;
+  background-color: white;
+  border-radius: 50%;
+  width: 66px;
 }
 
 .select__current {
@@ -26,30 +30,33 @@
 	  display: none;
 	  position: absolute;
 	  right: 0;
-    left: -10px;
-	  top: -12px;
-    width: 71px;
+    left: 0;
+	  top: 0;
+    width: 66px;
     background: #FFFFFF;
     border-radius: 44px;
     z-index: 10;
-    padding: 12px 0 15px;
 }
 
 .select__item {
-    width: 46px;
-    height: 46px;
+    width: 66px;
+    height: 66px;
     border-radius: 44px;
+    padding: 10px;
 	  cursor: pointer;
     transition: hover 0.4s ease-out;
     position: relative;
 
+    &:first-child {
+      border-radius: 44px;
+      box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
 
-  &:hover {
-    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
-    transform: scale(1.2);
-  }
-}
+      &:hover {
+        transform: initial;
+      }
+    }
 
-.select__item + .select__item {
-    margin-top: 14px;
+    &:hover {
+      transform: scale(1.1);
+    }
 }
